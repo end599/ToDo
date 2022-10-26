@@ -5,17 +5,17 @@ class Circle {
 public:
 
 	int radius;
-	float area();
+	double area();
 };
 
-float Circle::area() {
+double Circle::area() {
 	return radius * radius * 3.14;
 }
 
 void main() {
 	Circle cir1;
-	cout << "원의 반지름은?";
+	cout << "?";
 	cin >> cir1.radius;
 
-	cout << "원의 면적은 " << cir1.area() << "입니다.";
+	cout << "f" << cir1.area() << "123.";
 }
